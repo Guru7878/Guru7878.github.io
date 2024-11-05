@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rye&family=Ysabeau+Office:ital,wght@0,1..1000;1,1..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Rye&family=Ysabeau+Office:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+:root {
+
+    --primary-color: white;
+    --complementary-color: black;
+    --brand-color:#FFC107;
+
+}
+
+* {
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+}
+
+/* .navbar #mainNav {
+    background: var(--brand-color);
+} */
+
+body {
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+/* .navbar {
+    background: rgb(240, 238, 238) !important;
+} */
+#hero-section {
+    background: url(./img/burger\ pexels-jonathanborba-2983101.jpg) no-repeat center center/cover;
+    height: 90vh;
+    
+}
+
+#hero-section h1 {
+    color:white;
+    padding: 4em 0 1.5em 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    font-size: 3.2em;
+    margin-left: 2.8em; 
+
+} 
+.icon {
+    width: 3rem;
+      
+}
+
+.container-fluid span {
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+}
+
+h1, h2, h3, h4, h5 {
+
+font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+
+}
+
+
+p, a, li {
+    font-family: "Ysabeau Office", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+/* #img {
+    background: url(./img/Background\ image.jpg) no-repeat center center/cover;
+    height: 515px;
+} */
+
+ .my-map iframe {
+    width:100%;
+    /* border:1px solid black;  */
+    height:40vh;
+}  
+
+/* footer .container > p {
+     bottom:0;
+     background-color: blueviolet;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 16px;
+} */
+
+
+.socialMedia i {
+
+    display:inline-block;
+    padding: 0 1.8em;
+    
+}
+/* #carousel-hero {
+    height: 300px;
+} */
+

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+            <link rel="stylesheet" href="/style.css">
+            <link rel="shortcut icon" href="./img/teapot-icon.png" type="image/x-icon">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+            <title>Assessment Project</title>
+        </head>
+    <body>
+            
+        <div class="container">
+                <!-- Start of Navbar -->
+                    
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                            <a class="navbar-brand" href="./index.html">
+                                    <span>
+                                        <img src="./img/teapot-icon.png" class="icon me-3 align-content-center" alt="logo" aria-label="logo"> Tea Pot Café
+                                    </span>
+                            </a>
+            
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                 <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                                </li>
+            
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./menu.html">Café Menu</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./contact.html">Contact</a>
+                                </li>
+                         
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </nav>
+            
+            
+                <!-- End of Navbar -->
+
+                <!--IMAGE: Start-->
+                <div class ="container" id="img"></div>
+                <!-- IMAGE: Closed -->
+
+<!-------------------------------Contact Section: Form & About Us------------------------------------------- -->
+                
+                <div class="mt-2 overflow-hidden">
+                                
+                    <div class="row">
+
+                          <!-- FORM: Start -->
+                        <div class="col-6 mb-2 mt-2 bg-warning">
+                                <h3 class="text-center my-3">Contact Us</h3>
+                                
+                                <form class="mt-2 mx-4 overflow-hidden">
+                                    <!-- Form Row 1 -->
+                                    <div class="row mb-3">
+
+                                        <div class="col-md-6 form-floating">
+                                            <input type="text" class="form-control" id="floatInput" placeholder="First name">
+                                            <label for="floatInput" class="form-label"> First name</label>
+                                        </div>
+
+                                        <div class="col-md-6 form-floating ">
+                                            <input type="text" class="form-control" id="floatingInput" placeholder="last name">
+                                            <label for="floatingInput" class="form-label"> Last name</label>
+                                        </div>
+
+                                    </div>
+
+                                    <!-- Form Row 2 -->
+
+                                    <div class="row mb-3">
+
+                                        <div class="col-md-6 form-floating">
+                                            <input type="text" class="form-control" id="floatingInput" placeholder="phone">
+                                            <label for="floatingInput" class="form-label">Phone</label>
+                                        </div>
+
+                                        <div class="col-md-6 form-floating">
+                                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                            <label for="floatingInput" class="form-label">Email</label>
+                                        </div>
+
+                                    </div>
+
+                                    <!-- Form Row 3 -->
+
+                                    <div class="row mb-3">
+                                        <div class="col-md-12 form-floating">
+                                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                                            <label for="floatingTextarea">Comments</label>
+                                        </div>
+                        
+                                    </div>
+
+                                    <!--  Button-->
+
+                                    <div class="col-12 mb-3">
+                                         <button type="submit" class="btn btn-primary">Submit</button>
+                                    </div>
+                                </form>
+                        </div>
+                        <!-- FORM: END -->
+
+                            <!-- Right Section to Form: START -->
+
+                            <div class="col-6 mb-2 gx-3 mt-2 bg-success text-center">
+                                <h3 class="my-3">Address & Contact</h3>
+                                <p class="fs-5 mb-0">126 South Road</p>
+                                <p class="fs-5 mb-0">Moorabbin VIC 3034</p>
+                                <p class="fs-5 mb-0"> 03 5555 4444</p>
+                                <p class="fs-5"> contact@teapotcafe.com</p>
+                            </div>   
+                    </div>
+                </div>
+                <!-- Right Section to Form: END-->
+
+                <!-- MAP SECTION: START-->
+
+                <div class="mt-1 map">
+
+
+                    <div id ="map" class = "my-map">
+                        <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=145.033033490181%2C-37.93401625690513%2C145.03593027591708%2C-37.93225190049589&amp;layer=mapnik"></iframe>
+                        <br/>
+                        <small><a href="https://www.openstreetmap.org/#map=19/-37.933134/145.034482">View Larger Map</a></small>
+                    </div>
+                </div>
+                <!-- MAP SECTION: START-->
+            </div>
+        
+                    
+            <!-- FOOTER: START -->
+            <footer class=" footer mt-5">
+                <div class="container bg-success">
+                    <div class="row g-5">
+                        <!-- ADDRESS -->
+                        <div class="col">
+                            <h4 class="my-3 ">Location</h4>
+                            <hr>
+                            <p class=" lead mb-0">126 South Road</p>
+                            <p class="lead ">Moorabbin VIC 3034</p>
+                            <p><a href="./contact.html#map" class="btn btn-success mt-3">View Location Map</a></p>
+                        
+                        </div>
+
+                        <!-- CONTACT -->
+
+                        <div class="col">
+                            <h4 class="my-3">Contact</h4>
+                            <hr>
+                            <p class=" lead mb-0">03 5555 4444</p>
+                            <p class="lead ">contact@teapotcafe.com</p>
+                            
+                        </div>
+                        <!-- Business Hours -->
+                        <div class="col">
+                            <h4 class="my-3">Business Hours</h4>
+                            <hr>
+                            <p class=" lead mb-0">Monday-Friday : 8am - 6pm</p>
+                            <p class=" lead mb-0">Saturday : 9am - 8pm</p>
+                            <p class=" lead ">Sunday : 9am - 7pm</p>
+
+                        </div>
+                        
+                            <div class="col">
+                                <h4 class="my-3">Site Map</h4>
+                                <hr>
+                                    <p class="mt-3 mx-2"><a href="./index.html" class= "btn btn-warning px-1">Home Page</a></p>
+                                    <p class="mb-3 mx-2"><a href="./menu.html" class= "btn btn-warning px-1">Cafe Menu</a></p>
+                                    <p class="mb-3 mx-2"><a href="./contact.html" class= "btn btn-warning px-1">Contact Us</a></p>
+                            </div>
+                        <!-- <div class="row row-cols-3 justify-content-between"> -->
+
+                            <!-- social media -->
+                            <div class="col">
+                                <h4 class="my-3">Social Media</h4>
+                                <hr>
+                                    <div class="socialMedia">
+                                        <i class="bi bi-twitter-x"></i>
+                                        <i class="bi bi-facebook "></i>
+                                        <i class="bi bi-instagram"></i>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p id="copyRight"></p>
+                </div>
+                
+            </footer>  
+        </div>   
+    </body>
+</html>
