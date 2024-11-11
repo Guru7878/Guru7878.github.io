@@ -75,11 +75,13 @@ li {
   font-style: normal;
 }
 #img {
-  background: url(./img/Background\ image.jpg) no-repeat center center/cover;
+  background: url(./img/nathan-dumlao-6VhPY27jdps-unsplash.jpg) no-repeat center
+    center/cover;
   height: 515px;
 }
 .img-menu {
-  background: url(./img/Background\ image.jpg) no-repeat center center/cover;
+  background: url(./img/alexandra-gornago-XaoeWaM8TSs-unsplash.jpg) no-repeat
+    center center/cover;
   height: 515px;
 }
 
