@@ -81,7 +81,6 @@ h3,
 h4,
 h5 {
   font-family: "Roboto Flex", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
 }
@@ -90,7 +89,6 @@ p,
 a,
 li {
   font-family: "Ysabeau Office", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
