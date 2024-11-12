@@ -4,7 +4,7 @@
 
 :root {
   --primary-color: #e9d6d6;
-  --complementary-color: black;
+  --complementary-color: #333333;
   --brand-color: #a62a2a;
 }
 
@@ -37,17 +37,16 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  font-size: 100px;
+  font-size: 4.5em;
   /* margin: auto; */
   /* text-align: center; */
 }
 
 .hero-section .hero-btn {
-  padding: 10px 30px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 25px;
+  margin-top: 0.5em;
   /* text-align: center; */
 }
 
@@ -57,8 +56,8 @@ body {
   /* display: flex; */
   flex-direction: row;
   justify-content: center;
-  font-size: 20px;
-  margin: 25px;
+  font-size: 1.3em;
+  margin: 0.5em;
   /* text-align: center; */
   background-color: rgb(189, 58, 58);
 }
@@ -101,12 +100,12 @@ li {
 #img {
   background: url(./img/nathan-dumlao-6VhPY27jdps-unsplash.jpg) no-repeat center
     center/cover;
-  height: 515px;
+  height: 70vh;
 }
 .img-menu {
   background: url(./img/alexandra-gornago-XaoeWaM8TSs-unsplash.jpg) no-repeat
     center center/cover;
-  height: 515px;
+  height: 60vh;
 }
 
 .my-map iframe {
